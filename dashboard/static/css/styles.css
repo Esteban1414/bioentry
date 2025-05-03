@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav.bg-dark {
+    background-color: #343a40 !important;
+}
+
+nav.bg-dark h4 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+nav.bg-dark .nav-link {
+    color: white;
+    padding: 8px;
+}
+
+nav.bg-dark .nav-link:hover {
+    background-color: #495057;
+    border-radius: 4px;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dropdown-menu {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item:active {
+    background-color: transparent;
+}

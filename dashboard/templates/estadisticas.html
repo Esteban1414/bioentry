@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %}Estadísticas - BioEntry{% endblock %}
+
+{% block content %}
+<h1>Mapa de Calor de Actividad</h1>
+<p>Este mapa muestra la distribución de eventos registrados.</p>
+<img src="data:image/png;base64,{{ heatmap }}" alt="Mapa de Calor" class="img-fluid rounded shadow" />
+{% endblock %}
